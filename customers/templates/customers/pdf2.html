@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Pdft</title>
+</head>
+<body>
+    <h1>pdf1-html</h1>
+    {{ customer  }}
+    <hr>
+    {{ customer.description  }}
+    <br>
+
+    {{ customer.logo  }}
+    <br>
+    {{ customer.logo.url }}
+    <br>
+    {{ customer.logo.path  }}
+    <br>
+    <img src="{{ customer.logo.path  }}" height="200px">
+
+</body>
+</html>
